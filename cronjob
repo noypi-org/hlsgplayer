@@ -1,0 +1,5 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+git add files/*.m3u8
+git commit -m add.playlist
+git push origin master
